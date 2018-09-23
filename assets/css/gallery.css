@@ -5,8 +5,14 @@
 body{
 	font-family: 'Karla', sans-serif !important;
 }
-.margin-for-the-nav{
-	margin-top: 56px;
+
+
+footer.footer.p-1.bg-dark{
+  border-style: none;
+}
+/*blue acccent on nav, hr and footer. color of nav and footer*/
+nav, footer{
+  background-color: #e9ecef;
 }
 hr{
 	background-color: #17a2b8;
@@ -21,4 +27,7 @@ hr{
 
 .fab{
   color: #343a40;
+}
+.margin-for-the-nav{
+	margin-top: 56px;
 }
