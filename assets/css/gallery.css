@@ -4,6 +4,9 @@
 }
 body{
 	font-family: 'Karla', sans-serif !important;
+	/*background: url(../image/bggg.jpeg);
+	background-repeat: no-repeat;
+	background-size: cover;*/
 }
 
 
@@ -29,5 +32,14 @@ hr{
   color: #343a40;
 }
 .margin-for-the-nav{
-	margin-top: 56px;
+	margin-top: 78px;
+}
+
+.main-con{
+	width: 80%;
+	margin: 0 auto;
+}
+div.row.margin-for-the-nav{
+	margin-right: 0;
+	margin-left: 0;
 }

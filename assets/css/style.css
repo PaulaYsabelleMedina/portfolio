@@ -32,16 +32,29 @@ width: 100%;
 
 
 
+.card-body h5{
+  color: #141414;
+  height: 3rem;
+  font-size: 1.5rem;
+}
+
+
+/*.planets{
+  background: url(../image/landingpage.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}*/
 
 .no-padding .col-lg-3{
   padding-left: 0;
   padding-right: 0;
 }
-h3{
+h2{
   text-align: center;
 }
 .card{
   margin-bottom: 1rem;
+  box-shadow: 3px 3px 8px grey;
 }
 
 

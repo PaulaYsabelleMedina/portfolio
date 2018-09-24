@@ -57,7 +57,7 @@ img.au-sideimg{
   height: 100%;
 }
 div.jumbotron{
-  background-color: #d4cd75;
+  background-color: #00A3B2;
 }
 
 .landingpage{
@@ -99,4 +99,17 @@ hr{
 /*nav margin*/
 .margin-for-the-nav{
   margin-top: 56px;
+}
+
+
+.landing-quote{
+  font-size: 2em;
+}
+
+/*quote*/
+.quote{
+  width: 500px;
+  margin: 0  auto;
+  text-align: center;
+  font-size: 3em;
 }
