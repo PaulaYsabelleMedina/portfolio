@@ -1,6 +1,6 @@
- img{
-  width: 100%;
-  object-fit:cover;
+img{
+    max-width: 100%;
+ 	overflow-x: hidden; 
 }
 body{
 	font-family: 'Karla', sans-serif !important;
@@ -32,14 +32,20 @@ hr{
   color: #343a40;
 }
 .margin-for-the-nav{
-	margin-top: 78px;
+	margin-top: 56px;
 }
 
 .main-con{
 	width: 80%;
 	margin: 0 auto;
 }
-div.row.margin-for-the-nav{
+div.col-lg-12{
 	margin-right: 0;
 	margin-left: 0;
+	padding: 0;
+}
+
+/*no spaces in gallery*/
+div.col-md-4.col-lg-4, div.col-md-6.col-lg-6{
+	padding: 0;
 }
