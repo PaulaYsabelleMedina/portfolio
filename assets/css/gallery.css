@@ -2,39 +2,6 @@ img{
     max-width: 100%;
  	overflow-x: hidden; 
 }
-body{
-	font-family: 'Karla', sans-serif !important;
-	/*background: url(../image/bggg.jpeg);
-	background-repeat: no-repeat;
-	background-size: cover;*/
-}
-
-
-footer.footer.p-1.bg-dark{
-  border-style: none;
-}
-/*blue acccent on nav, hr and footer. color of nav and footer*/
-nav, footer{
-  background-color: #e9ecef;
-}
-hr{
-	background-color: #17a2b8;
-}
-
-.custom-border{
- border-top-width: 5px; 
- border-color: #17a2b8;
- border-top-style: solid;
-}
-
-
-.fab{
-  color: #343a40;
-}
-.margin-for-the-nav{
-	margin-top: 56px;
-}
-
 .main-con{
 	width: 80%;
 	margin: 0 auto;
