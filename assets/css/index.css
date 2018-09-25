@@ -1,0 +1,88 @@
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.landingpage{
+  height: 100vh;
+}
+
+.bg{ 
+  background-image: url('../image/portfolio1.jpeg');
+  height: 100%; 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.content-in-landingpage p{
+  color: black;
+
+}
+.content-in-landingpage img {
+  width: 200px;                                 
+  height: 200px;
+  border-radius: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+.about-container{
+  background-image: url(../image/portflio.jpeg);
+}
+/*.skillsexperience-bg{
+  background-color: pink;
+}
+*/
+h2{
+  /*font-family: 'Cedarville Cursive', cursive !important; */
+  font-family: 'Homemade Apple', cursive !important;
+}
+p, li{
+  font-family: 'Open Sans', sans-serif !important;
+}
+
+.fab{
+  font-size: 40px;
+  color: white;
+}
+.footer{
+  border-top: solid 5px #f8b8b8;
+}
+
+/*tablet*/
+div.row{
+  margin-left: 0;
+  margin-right: 0;
+}
+@media only screen and (max-width: 768px) { 
+  .landingpage-content{
+    margin-top: 25vh;
+  }
+  h2.text-center.mb-2{
+    font-size: 190%;
+  }
+}
+
+/*computer*/
+@media only screen and (min-width: 769px) { 
+  .landingpage-content{
+    margin-top: 25vh;
+  }
+  .introbeforepic{
+    font-size: 1.2em;
+  }
+}
+img{
+  width: 40%;
+
+}
+hr{
+  background-color: #f8b8b8;
+}
+.card.text-center img{
+    box-shadow: 8px 8px 20px grey;
+}
