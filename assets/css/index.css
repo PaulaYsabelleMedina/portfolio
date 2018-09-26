@@ -40,7 +40,9 @@ h2{
 p, li{
   font-family: 'Open Sans', sans-serif !important;
 }
-
+h2.name{
+  font-family: 'Josefin Slab', serif !important;
+}
 .fab{
   font-size: 40px;
   color: white;
@@ -64,6 +66,9 @@ div.row{
    .h2beforep{
     font-size: 250%;
   }
+  .introbeforepic{
+    font-size: 2em;
+  }
 }
 
 /*computer*/
@@ -71,11 +76,9 @@ div.row{
   .landingpage-content{
     margin-top: 25vh;
   }
-  .introbeforepic{
-    font-size: 1.2em;
-  }
+  
   .h2beforep{
-    font-size: 300%;
+    font-size: 200%;
   }
 }
 
